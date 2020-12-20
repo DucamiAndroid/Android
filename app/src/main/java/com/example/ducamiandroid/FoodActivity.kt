@@ -55,9 +55,8 @@ class FoodActivity : AppCompatActivity() {
             }
 
             override fun onFailure(call: Call<FoodBase>, t: Throwable) {
-                Log.d("FOOD_ACTIVITY", t.message.toString())
+                Log.d("Logd", t.message.toString())
             }
-
         })
     }
 }
