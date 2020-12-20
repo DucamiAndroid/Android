@@ -12,5 +12,8 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             startActivity(Intent(this, WeatherActivity::class.java))
         }
+        button2.setOnClickListener {
+            startActivity(Intent(this, FoodActivity::class.java))
+        }
     }
 }
