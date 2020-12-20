@@ -18,6 +18,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
         buildConfigField "String", "API_KEY", "\"b708f3f970548d9d7aab8af1f85d45ee\""
+        buildConfigField "String", "MEAL_KEY", "\"e40fc13904d84da4a8d398649c324133\""
     }
 
     buildTypes {
